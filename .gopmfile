@@ -1,0 +1,7 @@
+[deps]
+github.com/astaxie/beego = tag:v1.9.2
+github.com/lib/pq = 
+gopkg.in/go-ini/ini.v1 = 
+github.com/gin-gonic/gin = commit:a210eea3bd1c3766d76968108dfcd83c331f549c
+github.com/golang/protobuf = tag:v1.2.0
+github.com/spf13/viper = commit:fb7a06477f21a08e24c82d4bddc131d56fdef129
