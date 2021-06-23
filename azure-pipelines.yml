@@ -22,9 +22,5 @@ steps:
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     configuration: |
-      go.resolveDependencies=True
-      go.resolveDependencies=True
-      go.resolveDependencies=False
-      go.resolveDependencies=True
-      go.resolveDependencies=False
-      go.resolveDependencies=True
+      go.resolveDependencies=true
+      go.resolveDependencies=false
