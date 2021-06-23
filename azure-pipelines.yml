@@ -22,6 +22,4 @@ steps:
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     configuration: |
-      go.resolveDependencies=true
       go.resolveDependencies=false
-      go.resolveDependencies=123
