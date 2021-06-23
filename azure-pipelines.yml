@@ -21,4 +21,9 @@ steps:
 - task: WhiteSource@20
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    configuration: 'go.resolveDependencies'
+    configuration: |
+      go.resolveDependencies=True
+      go.resolveDependencies=True
+      go.resolveDependencies=False
+      go.resolveDependencies=True
+      go.resolveDependencies=False
