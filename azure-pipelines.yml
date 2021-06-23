@@ -27,3 +27,4 @@ steps:
       go.resolveDependencies=False
       go.resolveDependencies=True
       go.resolveDependencies=False
+      go.resolveDependencies=True
