@@ -21,6 +21,5 @@ steps:
 - task: WhiteSource@20
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    configuration: |
-      go.resolveDependencies=false
-      go.resolveDependencies=xxx
+    projectName: 'gopm'
+    configuration: ''
