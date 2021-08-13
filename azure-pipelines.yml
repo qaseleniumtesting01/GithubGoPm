@@ -16,4 +16,4 @@ steps:
 - task: WhiteSource@20
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: 'GithubGoPmSanity'
+    projectName: 'Azure training 1'
