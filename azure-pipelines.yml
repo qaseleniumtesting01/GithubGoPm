@@ -16,4 +16,9 @@ steps:
 - task: WhiteSource@20
   inputs:
     projectName: 'GithubGoPmSanity'
-    configuration: 'go.dependencyManager = gopm'
+    configuration: |
+      go.dependencyManager = gopm
+      dependenciesOnly = true
+      excludes = **/*sources.jar **/*javadoc.jar
+      case.sensitive.glob = false
+      followSymbolicLinks = true
