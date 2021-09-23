@@ -15,5 +15,5 @@ steps:
 
 - task: WhiteSource@20
   inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'GithubGoPmSanity'
+    configuration: 'go.dependencyManager = gopm'
